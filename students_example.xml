@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+  <student>
+    <!-- matriculation-number is taken as identifier -->
+    <matriculation-number>1234567</matriculation-number>
+    <group>1</group>
+    <lastname>Kleene</lastname>
+    <firstname>Stephen</firstname>
+    <wikiname>StephenKleene</wikiname>
+    <degree-programme>033.521</degree-programme>
+    <!-- not by TUGrazOnline but when this entry was created -->
+    <registration-date>2014-12-18T11:43:14+02:00</registration-date>
+    <email>stephen@klaynee.org</email>
+    <grade>1</grade>
+  </student>
+</students>

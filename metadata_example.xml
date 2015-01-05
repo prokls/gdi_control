@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <course title="Grundlagen der Informatik" lecturer="Alan Turing" type="practicals" id="716.231" />
+  <course title="Grundlagen der Informatik (CS)" lecturer="Alan Turing" type="practicals" id="716.233" /> 
+  <course title="Grundlagen der Informatik" lecturer="Don Knuth" type="lecture" id="716.232" />
+  <course title="Grundlagen der Informatik (CS)" lecturer="Don Knuth" type="lecture" id="716.234" />
+  <tutor id="t1">
+    <lastname>Turing</lastname>
+    <firstname>Alan</firstname>
+    <email>alan@turing.org</email>
+  </tutor>
+  <tutor id="t2">
+    <lastname>Gödel</lastname>
+    <firstname>Kurt</firstname>
+    <email>kurt.goedel@example.org</email>
+  </tutor>
+  <tutor id="t3">
+    <lastname>Chomsky</lastname>
+    <firstname>Noam</firstname>
+    <email>chomsky@example.org</email>
+  </tutor>
+
+  <group tutor="t1" id="1" />
+  <group tutor="t2" id="2" />
+  <group tutor="t3" id="3" />
+  <group tutor="t1" id="4" />
+  <group tutor="t1" id="5" />
+  <group tutor="t3" id="6" />
+  <group tutor="t2" id="7" />
+  <group tutor="t3" id="8" />
+  <group tutor="t2" id="9" />
+
+  <assignment id="AssignmentOne">
+    <deadline>2014-10-29T23:59:59+01:00</deadline>
+    <submission>SubmissionOne</submission>
+  </assignment>
+  <assignment id="AssignmentTwo">
+    <deadline>2014-11-19T23:59:59+01:00</deadline>
+    <submission>SubmissionTwo</submission>
+    <partnersubmission>PartnerTwo</partnersubmission>
+  </assignment>
+  <assignment id="AssignmentThree">
+    <deadline>2014-12-10T23:59:59+01:00</deadline>
+    <submission>SubmissionThree</submission>
+    <partnersubmission>PartnerThree</partnersubmission>
+  </assignment>
+
+  <grades>
+    <excellent repr="1" min="88" max="100" />
+    <good repr="2" min="76" max="87" />
+    <satisfactory repr="3" min="63" max="75" />
+    <sufficient repr="4" min="51" max="62" />
+    <insufficient repr="5" min="0" max="50" />
+  </grades>
+
+  <wikiurl>http://gdi.ist.tugraz.at/gdi/</wikiurl>
+  <wikipath>/var/www/gdi/</wikipath>
+</metadata>
